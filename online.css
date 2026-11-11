@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Georgia, Times New Roman, Times, serif;
+    color:midnightblue;
+    background-color:beige;
+    line-height:1.6;
+}
+
+a {
+    text-decoration:none;
+    color:indigo;
+}
+
+.container {
+    width:90%;
+    max-width: fit-content;
+    margin:auto;
+}
+
+.header {
+	background-color:cornsilk;
+	border-bottom: 2px solid darkblue;
+	position: sticky;
+	top: 0;
+	z-index: 100;
+}
+
+.navbar {
+	min-height: 75px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 450px ;
+}
+
+.nav-menu {	
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+
+.nav-menu a {
+	font-size: 15px;
+	font-weight: 600;
+	transition: 0.3s;
+}
+
+.nav-menu a:hover {
+	color:chocolate;
+}
+
+.nav-menu .nav-button {
+	background-color: purple;
+	color: yellow ;
+	padding: 10px 23px;
+	border-radius: 6px;
+}
+
+.nav-menu .nav-button:hover {
+	background-color: navyblue;
+	color: lightblue;
+}
+
+.main-container {
+    padding:25px;
+    display: grid;
+	grid-template-columns: repeat(3, minmax(0, 1fr));
+	align-items:center;
+	gap: 50px;
+}
+
+.main-container:hover {
+	color: inherit;
+}
+
+.container-product {
+    background-color: white;
+	padding: 40px;
+	width: 100%;
+	max-width: 400px;
+	text-align: center;
+	border-radius: 20px;
+	box-shadow: 0 10px 35px blue;
+}
+
+.images {
+    
+    width:100%;
+    height:210px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 12px;
+    overflow: hidden;
+    
+}
+
+.images img {
+    width:100%;
+    object-fit: contain;
+    display: block;
+}
+
+.logo {
+	font-size: 27px;
+	font-weight: bold;
+	color: blue;
+}
+
+.logo span {
+	color: red;
+}
+
+.First {
+    background-color: aliceblue;
+    color: darkblue;
+    border-radius: 25px;
+    padding: 6px 17px;
+    border: none;
+    font-size: 10px;
+}
+
+.Second {
+    background-color:deepskyblue;
+    color: darkgreen;
+    border-radius: 25px;
+    padding: 6px;
+    border: none;
+    font-size: 10px;
+}
